@@ -1,0 +1,28 @@
+.footerAll {
+  background-color: #95d1cc;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerCopy {
+  margin: auto 10px;
+  color: #f6f2d4;
+  line-height: 0;
+  font-weight: bold;
+}
+
+.footerSocial {
+  margin: auto 10px;
+  font-size: 30px;
+  line-height: 0;
+}
+
+.footerSocial a {
+  color: #f6f2d4;
+}
+
+.footerSocial a:hover {
+  color: #5584ac;
+  cursor: pointer;
+}

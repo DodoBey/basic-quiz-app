@@ -1,0 +1,9 @@
+.quizArea {
+  height: 90vh;
+  background-color: #f6f2d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #95d1cc;
+}

@@ -1,0 +1,38 @@
+.headerAll {
+  background-color: #95d1cc;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerButtonArea {
+  margin: auto 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #f6f2d4;
+}
+.headerLogo img {
+  width: 80px;
+  margin: auto 10px;
+}
+
+.headerLogo img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.headerButton {
+  font-size: 30px;
+  color: #f6f2d4;
+  background-color: transparent;
+  border: 2px solid #f6f2d4;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.headerButton:hover {
+  color: #5584ac;
+  border: 2px solid #5584ac;
+  transform: scale(1.1);
+  cursor: pointer;
+}
