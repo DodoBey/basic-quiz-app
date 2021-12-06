@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Home.css"
+import questions from "../store/Questions"
 const Home = () => {
+
+    const question = questions
+    console.log(question)
     return (
         <section className="mainBody">
             <div className="welcomeArea">

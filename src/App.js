@@ -9,6 +9,7 @@ import {
 import UserForm from './components/UserForm';
 import Subject from './components/Subject';
 import Quiz from './components/Quiz';
+import Result from './components/Result';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/userForm" element={<UserForm />} />
           <Route path="/subjectSelect" element={<Subject />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/result" element={<Result />} />
         </Routes>
         <Footer />
       </BrowserRouter>

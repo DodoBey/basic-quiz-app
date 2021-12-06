@@ -1,0 +1,20 @@
+.resultBody {
+  height: 90vh;
+  background-color: #f6f2d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #95d1cc;
+}
+
+.resultTitle {
+  font-size: 40px;
+}
+
+.resultScore {
+  font-size: 60px;
+  font-weight: bold;
+  color: #5584ac;
+  text-shadow: 0px 0px 10px rgba(149, 209, 204, 0.75);
+}
